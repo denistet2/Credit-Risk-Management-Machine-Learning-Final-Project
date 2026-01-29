@@ -1,0 +1,16 @@
+# --- Игнорируем данные и тяжелые файлы ---
+train_data/
+venv/
+*.parquet
+*.pq
+*.csv
+*.zip
+*.rar
+*.pkl
+*.cbm
+
+# --- Игнорируем системные файлы ---
+__pycache__/
+.ipynb_checkpoints/
+.idea/
+.DS_Store
